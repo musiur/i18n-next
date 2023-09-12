@@ -27,7 +27,7 @@ const LangSwitch = ({ params }: ParamLang) => {
           </div>
           <div
             className={`${
-              params.lang === "bn" ? "text-green-900" : "text-gray-400"
+              params.lang === "bn" ? "text-green-600" : "text-gray-400"
             }`}
           >
             বাংলা
