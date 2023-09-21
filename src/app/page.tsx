@@ -1,10 +1,13 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 const Home = () => {
   const router = useRouter();
-  router.push("/en");
+  useEffect(() => {
+    router.push("/en");
+  }, []);
   return <div></div>;
 };
 
